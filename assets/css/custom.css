@@ -1,0 +1,5 @@
+/* Add here all your css styles (customizations) */
+.js-slide:hover{
+    background-color: black !important;
+    color: white;
+}
