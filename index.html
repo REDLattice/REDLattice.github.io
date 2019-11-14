@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Title -->
+    <title>REDLattice</title>
+
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/fav/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/fav/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/fav/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/fav/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/fav/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/fav/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/fav/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/fav/favicon-16x16.png">
+    <link rel="manifest" href="assets/fav/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,500,600,700,800">
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="assets/vendor/icon-awesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendor/icon-line/css/simple-line-icons.css">
+    <link rel="stylesheet" href="assets/vendor/icon-hs/style.css">
+    <link rel="stylesheet" href="assets/vendor/hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" href="assets/vendor/animate.css">
+    <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
+
+    <!-- CSS Template -->
+    <link rel="stylesheet" href="assets/css/styles.op-event.css">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+<main>
+
+    <!-- Header v1 -->
+    <header id="js-header" class="u-header u-header--sticky-top u-header--change-appearance g-z-index-9999"
+            data-header-fix-moment="100">
+        <div class="light-theme u-header__section g-bg-darkblue-opacity-0_7 g-transition-0_3 g-py-10"
+             data-header-fix-moment-exclude="light-theme g-bg-darkblue-opacity-0_7"
+             data-header-fix-moment-classes="dark-theme u-shadow-v18 g-bg-white-opacity-0_9">
+            <nav class="navbar navbar-expand-lg g-py-0">
+                <div class="container g-pos-rel">
+                    <!-- Logo -->
+                    <a href="#" class="js-go-to navbar-brand u-header__logo"
+                       data-type="static">
+                        <img class="u-header__logo-img-lg u-header__logo-img--main d-block"
+                             src="assets/img/logo-light.png" alt="Image description"
+                             data-header-fix-moment-exclude="d-block"
+                             data-header-fix-moment-classes="d-none">
+
+                        <img class="u-header__logo-img u-header__logo-img--main d-none" src="assets/img/logo-dark.png"
+                             alt="Image description"
+                             data-header-fix-moment-exclude="d-none"
+                             data-header-fix-moment-classes="d-block">
+                    </a>
+                    <!-- End Logo -->
+
+                    <!-- Navigation -->
+                    <div class="collapse navbar-collapse align-items-center flex-sm-row" id="navBar"
+                         data-mobile-scroll-hide="true">
+                        <ul id="js-scroll-nav"
+                            class="navbar-nav text-uppercase g-font-weight-700 g-font-size-11 g-pt-20 g-pt-5--lg ml-auto">
+                            <li class="nav-item g-mr-15--lg g-mb-7 g-mb-0--lg active">
+                                <a href="#home" class="nav-link p-0">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+                                <a href="#company" class="nav-link p-0">Company</a>
+                            </li>
+                            <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+                                <a href="#culture" class="nav-link p-0">Culture</a>
+                            </li>
+                            <li class="nav-item g-mx-15--lg g-mb-7 g-mb-0--lg">
+                                <a href="#jobs" class="nav-link p-0">Jobs</a>
+                            </li>
+                            <li class="nav-item g-ml-15--lg">
+                                <a href="#contact" class="nav-link p-0">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Navigation -->
+
+                    <!-- Responsive Toggle Button -->
+                    <button class="navbar-toggler btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-top-15 g-right-0"
+                            type="button"
+                            aria-label="Toggle navigation"
+                            aria-expanded="false"
+                            aria-controls="navBar"
+                            data-toggle="collapse"
+                            data-target="#navBar">
+                <span class="hamburger hamburger--slider">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+                </span>
+                    </button>
+                    <!-- End Responsive Toggle Button -->
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header v1 -->
+
+    <!-- Intro Box -->
+    <section id="home" class="g-bg-img-hero g-pos-rel u-bg-overlay g-bg-darkblue-opacity-0_7--after g-pt-150"
+             style="background-image: url(assets/img/rlp3.jpg);">
+
+        <div class="container g-max-width-750 u-bg-overlay__inner g-color-white g-mb-60" style="min-height: 10rem">
+            <div class="row">
+            </div>
+        </div>
+
+        <div id="company" class="container u-bg-overlay__inner g-bottom-minus-70 px-0">
+            <div class="row u-shadow-v23 g-theme-bg-blue-dark-v2 mx-0">
+                <div class="col-md-6 px-0">
+                    <div class="js-carousel text-center u-carousel-v5 g-overflow-hidden h-100 g-max-height-50vh"
+                         data-infinite="true"
+                         data-autoplay="true"
+                         data-speed="5000"
+                         data-arrows-classes="u-arrow-v1 g-absolute-centered--y g-width-40 g-height-40 g-font-size-20 g-color-white g-color-primary--hover g-bg-primary g-bg-white--hover g-transition-0_2 g-transition--ease-in"
+                         data-arrow-left-classes="fa fa-angle-left g-left-0"
+                         data-arrow-right-classes="fa fa-angle-right g-right-0">
+                        <div class="js-slide g-bg-img-hero g-min-height-50vh"
+                             style="background-image: url(assets/img/intro1.jpg);"></div>
+                        <div class="js-slide g-bg-img-hero g-min-height-50vh"
+                             style="background-image: url(assets/img/intro2.jpg);"></div>
+                        <div class="js-slide g-bg-img-hero g-min-height-50vh"
+                             style="background-image: url(assets/img/intro3.jpg);"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex g-min-height-50vh g-theme-color-gray-dark-v1 g-px-50 g-py-80 g-py-50--md g-py-20--lg">
+                    <div class="align-self-center w-100">
+                        <h2 class="text-uppercase g-font-weight-700 g-font-size-30 g-color-primary g-mb-10">We Are
+                            REDLattice</h2>
+                        <h3 class="text-uppercase g-font-weight-500 g-font-size-13 g-color-white g-mb-20">Research ·
+                            Engineering · Development</h3>
+                        <p class="g-font-size-14">
+                            REDLattice is a <b class="g-font-size-16">mission-focused</b> provider of technology and
+                            services for CNO and non-traditional mission support. Since 2012, we have helped
+                            our customers deliver mission success and solve some of their most complex challenges.
+                        </p>
+                        <p class="g-font-size-14">
+                            We provide <b class="g-font-size-16">full spectrum capabilities</b> from finding
+                            vulnerabilities in target systems to deploying global infrastructure. Our expertise in
+                            vulnerability research (VR), tool development, malware analysis, reverse engineering (RE),
+                            and advanced operational capabilities allow us unparalleled ability to support our customers.
+                        </p>
+                        <p class="g-font-size-14 mb-0">
+                            We are defined by our ability to rapidly design, develop, and implement <b class="g-font-size-16">cutting
+                            edge</b> solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Intro Box -->
+
+    <!-- Overview -->
+    <section id="overview" class="g-pt-150 g-pb-90 g-pb-170--md">
+        <div class="container">
+            <div class="text-center g-mb-70">
+                <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-mb-30">REDLattice
+                    <span class="g-font-weight-400 g-font-size-40">|</span>
+                    <span class="g-color-primary">We Do</span></h2>
+
+                <p>
+                    Our team is the best in the industry for providing unique services and capabilities to our partners. REDLattice's subject matter experts have unparalleled knowledge across the
+                    most difficult platforms; there's no challenge we cannot solve. Our team has enabled us to create the next generation 
+                    VR and RE tools. Whether it's our automated test range, Tahoe, a tool that automates testing and 
+                    validation of malware across all target platforms, or nachostack, a binary analysis and RE augmentation platform, our 
+                    collective experience is guiding our innovation into the future of VR.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- End Overview -->
+
+    <!-- Section Culture -->
+    <section id="culture" class="u-bg-overlay g-bg-darkblue-opacity-0_7--after g-py-100">
+        <div class="container u-bg-overlay__inner">
+            <div class="text-center g-mb-70">
+                <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-white g-mb-30">
+                    Culture
+                    <span class="g-font-weight-400 g-font-size-40">|</span>
+                    <span class="g-color-primary">We Are</span></h2>
+
+                <p class="g-color-white">
+                    REDLattice is a place for people who are passionate about the mission and all things technical. We're a company of hackers in the original sense of the word: we like to take it apart and put it together again. We invent. We learn. It's not work, it's what we do for fun. <br> <br>  Check out a few of our many perks for being a part of the RL team.
+                </p>
+            </div>
+
+            <div class="js-carousel text-center g-line-height-0 g-pb-50"
+                 data-infinite="true"
+                 data-autoplay="true"
+                 data-speed="5000"
+                 data-rows="2"
+                 data-slides-show="6"
+                 data-arrows-classes="u-arrow-v1 g-absolute-centered--y g-bottom-0 g-width-40 g-height-40 g-font-size-20 g-color-white g-color-primary--hover g-bg-primary g-bg-white--hover g-mt-minus-25 g-transition-0_2 g-transition--ease-in"
+                 data-arrow-left-classes="fa fa-angle-left g-left-0"
+                 data-arrow-right-classes="fa fa-angle-right g-right-0"
+                 data-pagi-classes="u-carousel-indicators-v1--white g-absolute-centered--x g-bottom-0"
+                 data-responsive='[{
+                 "breakpoint": 1200,
+                 "settings": {
+                   "slidesToShow": 5
+                 }
+               }, {
+                 "breakpoint": 992,
+                 "settings": {
+                   "slidesToShow": 4
+                 }
+               }, {
+                 "breakpoint": 768,
+                 "settings": {
+                   "slidesToShow": 3
+                 }
+               }, {
+                 "breakpoint": 576,
+                 "settings": {
+                   "slidesToShow": 2
+                 }
+               }]'>
+
+
+               <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3" data-toggle="modal"
+                    href="#macModal">
+                <span class='g-ma-10 g-height-80 fas fa-3x fa-laptop-code'
+                      style='font-size:-webkit-xxx-large; padding-top:10%; color: white'></span>
+                </a>
+
+                <a class="js-slide g-height-90 u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3"
+                   data-toggle="modal" href="#eventsModal">
+                    <span class='g-ma-10 g-height-80 fas fa-3x fas fa-ticket-alt'
+                          style='font-size:-webkit-xxx-large; padding-top:10%; color: white'></span>
+                </a>
+
+                <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3" data-toggle="modal"
+                   href="#salaryModal">
+                    <span class='g-ma-10 g-height-80 fas fa-3x fa-money-bill-wave'
+                          style='font-size:-webkit-xxx-large; padding-top:10%; color: white'></span>
+                </a>
+
+                <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3" data-toggle="modal"
+                   href="#coffeeModal">
+                    <span class='g-ma-10 g-height-80 fas fa-3x fa-coffee'
+                          style='font-size:-webkit-xxx-large; padding-top:10%; color: white'></span>
+                </a>
+
+                <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3" data-toggle="modal"
+                   href="#foosballModal">
+                    <span class='g-ma-10 g-height-80 fas fa-3x fa-futbol'
+                          style='font-size:-webkit-xxx-large; padding-top:10%; color: white'></span>
+                </a>
+
+                <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3" data-toggle="modal"
+                   href="#uberModal">
+                    <span class='g-ma-10 g-height-80 fab fa-3x fa-uber'
+                          style='font-size:-webkit-xxx-large; padding-top:10%; color: white'></span>
+                </a>
+
+                <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3" data-toggle="modal"
+                   href="#ctfModal">
+                    <span class='g-ma-10 g-height-80 far fa-3x fa-flag'
+                          style='font-size:-webkit-xxx-large; padding-top:10%; color: white'></span>
+                </a>
+
+                <a class="js-slide g-height-90 u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3"
+                   data-toggle="modal" href="#beerModal">
+                    <span class='g-ma-10 g-height-80 fas fa-3x fa-beer '
+                          style='font-size:-webkit-xxx-large; padding-top:10%; color: white'></span>
+                </a>
+
+                <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3" data-toggle="modal"
+                   href="#trainingModal">
+                    <span class='g-ma-10 g-height-80 fas fa-3x far fa-id-badge'
+                          style='font-size:-webkit-xxx-large; padding-top:10%; color: white'></span>
+                </a>
+
+                <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3" data-toggle="modal"
+                   href="#doctorModal">
+                    <span class='g-ma-10 g-height-80 fas fa-3x fa-user-md'
+                          style='font-size:-webkit-xxx-large; padding-top:10%; color: white'></span>
+                </a>
+
+                <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3" data-toggle="modal"
+                   href="#piggybankModal">
+                    <span class='g-ma-10 g-height-80 fas fa-3x fa-piggy-bank'
+                          style='font-size:-webkit-xxx-large; padding-top:10%; color: white'></span>
+                </a>
+
+                <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3" data-toggle="modal"
+                   href="#environmentModal">
+                    <span class='g-ma-10 g-height-80 fas fa-3x fas fa-desktop'
+                          style='font-size:-webkit-xxx-large; padding-top:10%; color: white'></span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Section Culture -->
+
+    <!-- Jobs -->
+    <section id="jobs" class="g-pt-150 g-pb-90 g-pb-170--md">
+        <div class="container">
+            <div class="text-center g-mb-70">
+                <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-mb-30">REDLattice
+                    <span class="g-font-weight-400 g-font-size-40">|</span>
+                    <span class="g-color-primary">Careers</span></h2>
+
+                <p>
+                    REDlattice is continuously searching for not just the best, but the obsessed. We aren’t talking network defense or basic IT security here - our positions are mission-focused and operational in nature. Basically, if it’s not challenging, we're not interested. 
+                    If you are looking to join a group of agile, self-motivated engineers, we would love to hear from you. 
+                </p>
+            </div>
+        </div>
+
+        <!-- Nav tabs -->
+        <ul class="nav justify-content-center text-uppercase u-nav-v5-3 u-nav-primary g-line-height-1_4 g-font-weight-700 g-font-size-14 g-brd-bottom--md g-brd-gray-light-v4 g-mb-80--md"
+            role="tablist"
+            data-target="jobs-list"
+            data-tabs-mobile-type="slide-up-down"
+            data-btn-classes="btn btn-md btn-block text-uppercase rounded-0 g-font-weight-700 u-btn-outline-primary">
+            <li class="nav-item g-mx-10--md">
+                <a class="nav-link g-theme-color-gray-dark-v1 g-color-primary--hover g-pb-15--md" data-toggle="tab"
+                   href="#jobs-{{ location }}" role="tab">{{ location }}</a>
+            </li>
+        </ul>
+        <!-- End Nav tabs -->
+
+        <!-- Tab panes -->
+        <div id="job-tabs" class="tab-content g-pt-20">
+            <div class="tab-pane fade" id="jobs-{{ location }}" role="tabpanel">
+                <div class="u-timeline-v3-wrap">
+                    <a class="job u-timeline-v3 d-block text-center text-md-left g-parent u-link-v5 g-mb-50"
+                       href="{{ url }}">
+                        <div class="g-hidden-sm-down u-timeline-v3__icon g-absolute-centered--y g-z-index-3 g-line-height-0 g-width-16 g-height-16 g-ml-minus-8">
+                            <i class="d-inline-block g-width-16 g-height-16 g-bg-white g-brd-5 g-brd-style-solid g-brd-gray-light-v4 g-rounded-50"></i>
+                        </div>
+
+                        <div class="row mx-0">
+                            <div class="col-md-3 g-order-2 g-order-1--sm d-flex align-self-center px-0">
+                            </div>
+
+                            <div class="col-md-9 g-order-1 g-order-2--sm px-0 g-mb-15 g-mb-0--md">
+                                <div class="media d-block d-md-flex">
+                                    <div class="d-md-flex u-bg-overlay g-width-60 g-height-60 g-bg-darkblue-opacity-0_7 g-overflow-hidden g-rounded-50x g-mr-30--md mx-auto g-mb-15 g-mb-0--md g-transition-0_2 g-transition--ease-in">
+                                        <i class="fa-2x {{ icon }} g-color-white g-absolute-centered"></i>
+                                    </div>
+
+                                    <div class="media-body align-self-center">
+                                        <h4 class="text-uppercase g-font-weight-700 g-font-size-12 g-color-primary g-mb-5">{{ city }}</h4>
+                                        <h3 class="text-uppercase g-font-weight-700 g-font-size-23 g-mb-10">{{ title }}</h3>
+                                        <p class="g-color-gray-dark-v5 mb-0">
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- End Tab panes -->
+
+        <div id="ofccp" class="text-center small">
+            <a href="assets/eeo.pdf" alt="EEO">EEO</a> |
+            <a href="assets/paytransparency.pdf" alt="Pay Transparency">Pay Transparency</a>
+        </div>
+    </section>
+    <!-- End Jobs -->
+
+    <!-- Section Contact -->
+    <section id="contact" class="u-bg-overlay g-bg-darkblue-opacity-0_7--after g-color-white g-py-50">
+        <div class="container u-bg-overlay__inner">
+            <div class="text-center">
+                <h2 class="text-uppercase g-color-white g-line-height-1 g-font-weight-700 g-font-size-30 g-mb-30">
+                    Contact
+                    <span class="g-font-weight-400 g-font-size-40">|</span>
+                    <span class="g-color-primary">Get In Touch</span></h2>
+                <address class="text-uppercase g-font-size-13 g-overflow-x-hidden g-py-5">
+                    <div class="row g-mx-minus-5">
+                        <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg g-px-5">
+                            Email:
+                            <a href="mailto:info@redlattice.com" style="color:white"><strong>info@redlattice.com</strong></a>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg g-px-5">
+                            Phone number:
+                            <strong>+1 703 829 0733</strong>
+                        </div>
+
+                        <div class="col-md-12 col-lg-4 g-px-5">
+                            Offices in: <strong>Virginia</strong> & <strong>Florida</strong>
+                        </div>
+                    </div>
+                </address>
+            </div>
+        </div>
+    </section>
+    <!-- End Section contact -->
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div id="contact-footer" class="g-pt-20">
+        </div>
+
+        <div class="container">
+
+            <div class="g-py-40 g-color-gray-dark-v5">
+                <p class="g-mb-30">© REDLattice 2022 All Rights Reserved.</p>
+
+                <ul class="list-inline d-inline-block mb-0">
+                    <li class="list-inline-item g-mr-10">
+                        <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-14 g-color-white--hover g-bg-white g-bg-primary--hover g-transition-0_2 g-transition--ease-in"
+                           href="https://twitter.com/redlattice"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item g-mr-10">
+                        <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-14 g-color-white--hover g-bg-white g-bg-primary--hover g-transition-0_2 g-transition--ease-in"
+                           href="https://github.com/REDLattice"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="u-icon-v3 g-width-35 g-height-35 g-font-size-14 g-color-white--hover g-bg-white g-bg-primary--hover g-transition-0_2 g-transition--ease-in"
+                           href="https://www.linkedin.com/company/redlattice"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a class="js-go-to rounded-0 u-go-to-v1" href="#"
+       data-type="fixed"
+       data-position='{
+           "bottom": 15,
+           "right": 15
+         }'
+       data-offset-top="400"
+       data-compensation="#js-header"
+       data-show-effect="zoomIn">
+        <i class="hs-icon hs-icon-arrow-top"></i>
+    </a>
+</main>
+
+<!-- JS Global Compulsory -->
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"></script>
+<script src="assets/vendor/popper.js/popper.min.js"></script>
+<script src="assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+<!-- JS Implementing Plugins -->
+<script src="assets/vendor/appear.js"></script>
+<script src="assets/vendor/masonry/dist/masonry.pkgd.min.js"></script>
+<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+<script src="assets/vendor/jquery.countdown.min.js"></script>
+<script src="assets/vendor/fancybox/jquery.fancybox.js"></script>
+<script src="assets/vendor/slick-carousel/slick/slick.js"></script>
+
+<script src="assets/js/hs.core.js"></script>
+<script src="assets/js/components/hs.header.js"></script>
+<script src="assets/js/helpers/hs.hamburgers.js"></script>
+<script src="assets/js/components/hs.scroll-nav.js"></script>
+<script src="assets/js/components/hs.tabs.js"></script>
+<script src="assets/js/components/hs.countdown.js"></script>
+<script src="assets/js/components/hs.carousel.js"></script>
+<script src="assets/js/components/hs.go-to.js"></script>
+
+<!-- JS Customization -->
+<script src="assets/js/mustache.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/jobs.js"></script>
+
+<!-- JS Plugins Init. -->
+<script>
+    $(document).on('ready', function () {
+        // initialization of carousel
+        $.HSCore.components.HSCarousel.init('.js-carousel');
+
+        // initialization of header
+        $.HSCore.components.HSHeader.init($('#js-header'));
+        $.HSCore.helpers.HSHamburgers.init('.hamburger');
+
+        // initialization of go to section
+        $.HSCore.components.HSGoTo.init('.js-go-to');
+
+        // initialization of countdowns
+        var countdowns = $.HSCore.components.HSCountdown.init('.js-countdown', {
+            yearsElSelector: '.js-cd-years',
+            monthElSelector: '.js-cd-month',
+            daysElSelector: '.js-cd-days',
+            hoursElSelector: '.js-cd-hours',
+            minutesElSelector: '.js-cd-minutes',
+            secondsElSelector: '.js-cd-seconds'
+        });
+    });
+
+    $(window).on('load', function () {
+        // initialization of HSScrollNav
+        $.HSCore.components.HSScrollNav.init($('#js-scroll-nav'), {
+            duration: 700
+        });
+
+        // initialization of masonry.js
+        $('.masonry-grid').imagesLoaded().then(function () {
+            $('.masonry-grid').masonry({
+                columnWidth: '.masonry-grid-sizer',
+                itemSelector: '.masonry-grid-item',
+                percentPosition: true
+            });
+        });
+    });
+
+    $(window).on('resize', function () {
+        setTimeout(function () {
+            $.HSCore.components.HSTabs.init('[role="tablist"]');
+        }, 200);
+    });
+</script>
+</body>
+
+<div class="modal fade" id="beerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content g-height-auto" style="margin-top:50%; height:150px">
+            <div class="modal-body" style="text-align: center; color: black; margin-top:6%">
+                The office has a constant rotation of delicious beer on tap, some even homemade by our in-house
+                brewmasters.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="salaryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="margin-top:50%; height:150px">
+            <div class="modal-body" style="text-align: center; color: black; margin-top:9%">
+                We offer competitive compensation that's hard to pass up.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="foosballModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="margin-top:50%; height:150px">
+            <div class="modal-body" style="text-align: center; color: black; margin-top:7%">
+                Take a break to de-stress with foosball, shuffleboard, or VR games!
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="ctfModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="margin-top:50%; height:150px">
+            <div class="modal-body" style="text-align: center; color: black; margin-top:2%">
+                We have monthly in-house Capture The Flag challenges led by some of our best engineers. They're for 
+                RL employees, friends, and colleagues to be
+                challenged, have fun, and brush up their skillsets.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="trainingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="margin-top:50%; height:150px">
+            <div class="modal-body" style="text-align: center; color: black; margin-top:4%">
+                REDLattice employees attend conferences and training around the world, including DEFCON, RECON, Infiltrate, BlackHat, and CanSecWest.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="piggybankModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="margin-top:50%; height:150px">
+            <div class="modal-body" style="text-align: center; color: black; margin-top:6%">
+                REDLattice offers a competitive match on your 401k and corporate profit sharing.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="eventsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="margin-top:50%; height:150px">
+            <div class="modal-body" style="text-align: center; color: black; margin-top:3%">
+                REDLattice plans a variety of activities for all employees to enjoy: concerts, barbeques, Nationals games, monthly game nights, 
+                an annual holiday celebration, and much more.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="coffeeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="margin-top:50%; height:150px">
+            <div class="modal-body" style="text-align: center; color: black; margin-top:4%">
+                No one goes through coffee quite like REDLattice. There are always plenty of options for anyone to enjoy
+                at our coffee and espresso bar.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="uberModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="margin-top:50%; height:150px">
+            <div class="modal-body" style="text-align: center; color: black; margin-top:6%">
+                Employees have access to a company Uber account whenever they may need a ride.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="macModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="margin-top:50%; height:150px">
+            <div class="modal-body" style="text-align: center; color: black; margin-top:4%">
+                REDLattice team members are given their choice of work technology, whether it's a MacBook Pro, Windows machine, or iPad.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="doctorModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="margin-top:50%; height:150px">
+            <div class="modal-body" style="text-align: center; color: black; margin-top:6%">
+                REDLattice offers fantastic medical and dental insurance options with a large network of medical
+                professionals.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="environmentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="margin-top:50%; height:150px">
+            <div class="modal-body" style="text-align: center; color: black; margin-top:6%">
+                Our work environment includes flexible hours to promote a healthy work-life balance and a relaxed office atmosphere. 
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
